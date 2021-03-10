@@ -1,0 +1,25 @@
+#In this line is the name of the package that you create
+package mrsamiqplugin.tut;
+
+import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
+import org.bukkit.command.CommandExecutor;
+import org.bukkit.plugin.java.JavaPlugin;
+
+public class Mrsamiq extends JavaPlugin {
+    @Override
+    #This line will make the plugin write to the console Plugin has been enabled  
+    #ChatColor.GREEN will make the color of start message green. 
+    public void onEnable() {
+        Bukkit.getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "Plugin has been enabled");
+    }
+
+    @Override
+    #This line will make the plugin write to the console when server is stopping Plugin has been disabled
+    public void onDisable() {
+        getLogger().info("Plugin has been disabled");
+    }
+}
+
+#Tutorial by mrsamiq 
+#When copying, delete the hastags
