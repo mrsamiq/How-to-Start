@@ -43,6 +43,36 @@ When you have done this we can move on to STEP 5
 
 # Step 5
 Here you will copy the my main.java into your java class with your name, the main.java you can find on my github (this is the link of my main.java https://github.com/mrsamiq/How-to-Start/blob/main/main.class)
+![Image of main](https://cdn.discordapp.com/attachments/435843940269162507/819611878971670548/unknown.png)
+
+When you copy it there, it should look something like this
+When you have done this we can move on to STEP 6
+
+
+# Last Step 6
+Now let's make a plugin.yml file
+Right click on package and > new > file.  
+Here you must enter the name of the file plugin.yml 
+
+![Image of plugin](https://cdn.discordapp.com/attachments/435843940269162507/819613608395931668/unknown.png)
+
+Into plugin.yml you need to type those lines.
+
+name: mrsamiq
+main: mrsamiq.tut.Mrsamiq
+version: 0.0.1
+description: Basic plugin by mrsamiq.
+
+![Image of plugin1](https://cdn.discordapp.com/attachments/435843940269162507/819614131618316358/unknown.png)
+
+
+When you will have everything done, it should look something like this
+
+
+
+# Thank you for watching the tutorial 
+
+With regards to mrsamiq
 
 
 
